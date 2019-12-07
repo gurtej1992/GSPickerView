@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		21E773D7CFEAD9E0734D8CEAFBC24225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4658F57B464506F009691460B8DE6017 /* Pods-GSPickerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB66C730A552DB8C1182E15C6129897B /* Pods-GSPickerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		479A94952ABCB682AEF4201D5C8E5100 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BF36CA5C5C58FFF835AD923395094 /* ReplaceMe.swift */; };
 		5F71C20E30EDEEF4E2B3BEF1958DDD75 /* Pods-GSPickerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F68CB4805366A09EA7E3516FD9967C78 /* Pods-GSPickerView_Tests-dummy.m */; };
 		6F3BC5593E8A1A25D7C549AB0C7A0FD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B77A8559239C63B800FCFCE6 /* GSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A8558239C63B800FCFCE6 /* GSPickerView.swift */; };
 		D4410010CA7155FA9AE621F606DC42B7 /* GSPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD3405A39292241D4A534240E9BB5D2 /* GSPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA9A07A30765A7052E92CBB252937737 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DE50372D7F20BB5E2AE141FA21FB5A8D /* Pods-GSPickerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EFF8D09E51E44A2750F4FF4C85A5AB /* Pods-GSPickerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,7 +44,6 @@
 		23EFF8D09E51E44A2750F4FF4C85A5AB /* Pods-GSPickerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSPickerView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2E98E797FA0EC9BA0F5984438F0EC529 /* Pods-GSPickerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GSPickerView_Tests.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		345BF36CA5C5C58FFF835AD923395094 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GSPickerView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		37F5FBF294BF2265A086395E81C7DEF0 /* Pods-GSPickerView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSPickerView_Tests-Info.plist"; sourceTree = "<group>"; };
 		3C3AA682F0386D9F7708B475F5954230 /* Pods-GSPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		440371D686A5940825094032555D06A1 /* GSPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GSPickerView.modulemap; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		994B6D9D0F186CF9B4B66DB5C3A6DC2A /* GSPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSPickerView.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E50CADBBB40B3755E40065E12030BC6 /* Pods-GSPickerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSPickerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B77A8558239C63B800FCFCE6 /* GSPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSPickerView.swift; sourceTree = "<group>"; };
 		BD06ABEE086D630601AB8B9322A29CE9 /* Pods-GSPickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSPickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BFB24D249D96639C41A32CB7289622E5 /* Pods-GSPickerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSPickerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BFB34201729928BA0791821404E6E2A6 /* Pods_GSPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSPickerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,7 +160,7 @@
 		3DAA46647FDF712528C1450FE08E32E2 /* GSPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				345BF36CA5C5C58FFF835AD923395094 /* ReplaceMe.swift */,
+				B77A8558239C63B800FCFCE6 /* GSPickerView.swift */,
 				1F75D5160694CE9BCCA320A8E4AF4576 /* Pod */,
 				18488C0C09CD943610B404A005AA22CA /* Support Files */,
 			);
@@ -378,8 +378,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77A8559239C63B800FCFCE6 /* GSPickerView.swift in Sources */,
 				FD6F688DC34340D88AF1B132E62C8BF7 /* GSPickerView-dummy.m in Sources */,
-				479A94952ABCB682AEF4201D5C8E5100 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 994B6D9D0F186CF9B4B66DB5C3A6DC2A /* GSPickerView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -425,13 +426,14 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GSPickerView/GSPickerView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GSPickerView/GSPickerView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GSPickerView/GSPickerView.modulemap";
 				PRODUCT_MODULE_NAME = GSPickerView;
 				PRODUCT_NAME = GSPickerView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -702,6 +704,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 994B6D9D0F186CF9B4B66DB5C3A6DC2A /* GSPickerView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -714,14 +717,16 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GSPickerView/GSPickerView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GSPickerView/GSPickerView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GSPickerView/GSPickerView.modulemap";
 				PRODUCT_MODULE_NAME = GSPickerView;
 				PRODUCT_NAME = GSPickerView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'GSPickerView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GSPickerView.'
+  s.summary          = 'GSPickerView is Horizontal Picker Library written in Swift'
+  s.swift_version = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +19,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+GSPickerView is an easy to use and customize alternative to UIPickerView written in Swift. It was developed to provide a highly customizable experience, so you can implement your custom designed PickerView.
                        DESC
 
-  s.homepage         = 'https://github.com/Gurtej Singh/GSPickerView'
+  s.homepage         = 'https://github.com/gurtej1992/GSPickerView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gurtej Singh' => 'gurtej1992@gmail.com' }
-  s.source           = { :git => 'https://github.com/Gurtej Singh/GSPickerView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gurtej1992/GSPickerView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
