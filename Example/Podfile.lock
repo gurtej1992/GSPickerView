@@ -1,0 +1,16 @@
+PODS:
+  - GSPickerView (0.1.0)
+
+DEPENDENCIES:
+  - GSPickerView (from `../`)
+
+EXTERNAL SOURCES:
+  GSPickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GSPickerView: 889942ff37c1c3a0c1ea1f94e6913cd5d32b99e4
+
+PODFILE CHECKSUM: 049171490243a7f5c03e76467e5249c32a03ecf6
+
+COCOAPODS: 1.8.4

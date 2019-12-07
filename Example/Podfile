@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GSPickerView_Example' do
+  pod 'GSPickerView', :path => '../'
+
+  target 'GSPickerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

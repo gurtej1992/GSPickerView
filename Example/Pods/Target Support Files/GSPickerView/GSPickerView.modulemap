@@ -1,0 +1,6 @@
+framework module GSPickerView {
+  umbrella header "GSPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
