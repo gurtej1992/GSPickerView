@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GSPickerView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'GSPickerView is Horizontal Picker Library written in Swift'
   s.swift_version = '5.0'
 
@@ -29,7 +29,7 @@ GSPickerView is an easy to use and customize alternative to UIPickerView written
   s.source           = { :git => 'https://github.com/gurtej1992/GSPickerView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'GSPickerView/Classes/**/*'
   
