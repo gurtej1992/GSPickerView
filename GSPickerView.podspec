@@ -31,7 +31,7 @@ GSPickerView is an easy to use and customize alternative to UIPickerView written
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'GSPickerView/Classes/**/*'
+  s.source_files = 'Sources/**/*.swift'
   
   # s.resource_bundles = {
   #   'GSPickerView' => ['GSPickerView/Assets/*.png']
