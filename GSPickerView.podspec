@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GSPickerView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'GSPickerView is Horizontal Picker Library written in Swift'
   s.swift_version = '5.0'
 
